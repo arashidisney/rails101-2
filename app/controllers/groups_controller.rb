@@ -45,9 +45,6 @@ def update
     redirect_to groups_path, alert: "Group deleted"
   end
 
-    @group.destroy
-    redirect_to groups_path, alert: "Group deleted"
-  end
 
   private
 
